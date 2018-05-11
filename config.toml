@@ -67,7 +67,7 @@ enableGitInfo = false
   address = "Building 85, Life Sciences, University of Southampton, Southampton, SO17 1BJ, UK"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
-  skype = "ab604"
+  #skype = "ab604"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -274,7 +274,7 @@ enableGitInfo = false
   
 [[menu.main]]
   name = "CV"
-  url = "#cv"
+  url = "./files/cv.pdf"
   weight = 4
 
 #[[menu.main]]

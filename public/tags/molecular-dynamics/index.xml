@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Molecular-dynamics on Dr. Alistair Bailey</title>
+    <link>/tags/molecular-dynamics/</link>
+    <description>Recent content in Molecular-dynamics on Dr. Alistair Bailey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/molecular-dynamics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selector function of MHC I molecules is determined by protein plasticity</title>
+      <link>/project/selector-function-mhc/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/project/selector-function-mhc/</guid>
+      <description>This project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.
+In collaboration with the Biological Computation Group at Microsoft Research Cambridge we used biochemical data to infer that a conformational intermediate of MHC I is significant for peptide selection, and molecular dynamics simulations to show that peptide selector function correlates with protein plasticity.</description>
+    </item>
+    
+  </channel>
+</rss>

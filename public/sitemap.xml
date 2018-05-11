@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>/publication/2017-01-01_direct_evidence_for_/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -50,17 +59,8 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+01:00</lastmod>
+      <loc>/publication/2017-01-01_recent_advances_in_m/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -77,8 +77,8 @@
     
     <url>
     
-      <loc>/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+01:00</lastmod>
+      <loc>/project/mhc-ml-external-project/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -86,8 +86,8 @@
     
     <url>
     
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/project/heatmap/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -95,8 +95,8 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+01:00</lastmod>
+      <loc>/project/selector-function-mhc/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -104,9 +104,8 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
+      <loc>/publication/2015-01-01_selector_function_of/</loc>
+      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -114,8 +113,35 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+01:00</lastmod>
+      <loc>/publication/2014-01-01_two_polymorphisms_fa/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2013-01-01_a_mechanistic_basis_/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2010-01-01_the_cell_biology_of_/</loc>
+      <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/0/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -134,17 +160,7 @@
     <url>
     
       <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+01:00</lastmod>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -163,8 +179,38 @@
     
     <url>
     
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/mhc-i-antigen-processing/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/mathematical-model/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/molecular-dynamics/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -174,7 +220,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+01:00</lastmod>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -184,7 +230,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -193,28 +239,8 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/r/</loc>
+      <lastmod>2016-04-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
