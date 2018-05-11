@@ -10,31 +10,31 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "MHC class I antigen processing and presentation",
+    "Data science in R",
+    "Proteomics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Immunology"
+  institution = "University of Southampton"
+  year = 2013
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "BEng in Civil Engineering"
+  institution = "University of Southampton"
   year = 2008
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a researcher in the [Centre for Proteomic Research](http://www.proteome.soton.ac.uk/) and [Cancer Sciences Unit](http://www.som.soton.ac.uk/research/cancersciences/) at the 
+[University of Southampton](https://www.soton.ac.uk). My research interests are 
+in antigen processing and presentation by class I MHC molecules, data science 
+and proteomics.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+My current project aims to understand the involvement of class I MHC molecules
+in skin sensitisation to chemical allergens. I also contribute to research into
+contagious cancer in the [Tasmanian Devil](https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page), and I am a [Data and Software Carpentry](https://carpentries.org/) instructor. 
