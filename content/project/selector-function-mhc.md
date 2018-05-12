@@ -46,4 +46,3 @@ Sci Rep, (5), pp. 14928, https://doi.org/10.1038/srep14928, 2015.
 
 ![MHC model](/img/mhc_model.png "Mathematical model of MHC I peptide selection")
 
-
