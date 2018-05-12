@@ -13,7 +13,7 @@ summary = "A Shiny app I made for calculating the amount to weigh out or dilute 
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning", "MHC I antigen processing"]`
-# tags = ["machine-learning", "deep-learning", "MHC I antigen processing"]
+tags = ["R", "MHC I antigen processing"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://ab604.shinyapps.io/biochem_calculator/"
