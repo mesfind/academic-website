@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Machine Learning for MHC I peptide classification</title>
+      <link>/project/mhc-ml-external-project/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/project/mhc-ml-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MHC dynamics dashboard</title>
       <link>/project/hdx-dashboard/</link>
       <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
@@ -236,15 +245,6 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>Machine Learning for MHC I peptide classification</title>
-      <link>/project/mhc-ml-external-project/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>/project/mhc-ml-external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R heatmap tutorial using d3heatmap</title>
       <link>/project/heatmap/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
@@ -256,10 +256,12 @@ git submodule update --init --recursive
     <item>
       <title>Selector function of MHC I molecules is determined by protein plasticity</title>
       <link>/project/selector-function-mhc/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0100</pubDate>
       
       <guid>/project/selector-function-mhc/</guid>
-      <description>&lt;p&gt;This project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;This project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.&lt;/p&gt;
 
 &lt;p&gt;In collaboration with &lt;a href=&#34;https://www.microsoft.com/en-us/research/group/biological-computation/&#34; target=&#34;_blank&#34;&gt;the Biological Computation Group at Microsoft Research Cambridge&lt;/a&gt;
 we used biochemical data to infer that a conformational intermediate of MHC I is
@@ -267,6 +269,8 @@ significant for peptide selection, and molecular dynamics simulations to show th
 
 &lt;p&gt;This led to the proposal that MHC I cofactor tapasin modulates MHC I plasticity by
 dynamically coupling the peptide binding region and membrane bound domain.&lt;/p&gt;
+
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
 
 &lt;p&gt;A. Bailey, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott.
 Selector function of MHC I molecules is determined by protein plasticity.
