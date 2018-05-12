@@ -25,7 +25,12 @@ weight = 5
   course = "BEng in Civil Engineering"
   institution = "University of Southampton"
   year = 2008
- 
+  
+[[education.courses]]
+  course = "BTEC ND in Audio-Visual Production"
+  institution = "Bournemouth & Poole College of Art & Design"
+  year = "1994"
+  
 +++
 
 # Biography
