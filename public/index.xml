@@ -227,6 +227,15 @@ git submodule update --init --recursive
     </item>
     
     <item>
+      <title>Biochem Calculator</title>
+      <link>/project/biochem-calculator/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/project/biochem-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine Learning for MHC I peptide classification</title>
       <link>/project/mhc-ml-external-project/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
