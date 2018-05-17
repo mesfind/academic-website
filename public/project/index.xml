@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>Machine Learning for MHC I peptide classification</title>
       <link>/project/mhc-ml-external-project/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/mhc-ml-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MHC dynamics dashboard</title>
+      <link>/project/hdx-dashboard/</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/hdx-dashboard/</guid>
       <description></description>
     </item>
     
@@ -33,11 +42,20 @@
     <item>
       <title>Selector function of MHC I molecules is determined by protein plasticity</title>
       <link>/project/selector-function-mhc/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0100</pubDate>
       
       <guid>/project/selector-function-mhc/</guid>
       <description>This project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.
 In collaboration with the Biological Computation Group at Microsoft Research Cambridge we used biochemical data to infer that a conformational intermediate of MHC I is significant for peptide selection, and molecular dynamics simulations to show that peptide selector function correlates with protein plasticity.</description>
+    </item>
+    
+    <item>
+      <title>Biochem Calculator</title>
+      <link>/project/biochem-calculator/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/project/biochem-calculator/</guid>
+      <description></description>
     </item>
     
   </channel>

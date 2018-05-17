@@ -25,12 +25,17 @@ weight = 5
   course = "BEng in Civil Engineering"
   institution = "University of Southampton"
   year = 2008
- 
+  
+[[education.courses]]
+  course = "BTEC ND in Audio-Visual Production"
+  institution = "Bournemouth & Poole College of Art & Design"
+  year = "1994"
+  
 +++
 
 # Biography
 
-I am a researcher in the [Centre for Proteomic Research](http://www.proteome.soton.ac.uk/) and [Cancer Sciences Unit](http://www.som.soton.ac.uk/research/cancersciences/) at the 
+I am a researcher at the [Centre for Proteomic Research](http://www.proteome.soton.ac.uk/) and [Cancer Sciences Unit](http://www.som.soton.ac.uk/research/cancersciences/) at the 
 [University of Southampton](https://www.soton.ac.uk). My research interests are 
 in antigen processing and presentation by class I MHC molecules, data science 
 and proteomics.
