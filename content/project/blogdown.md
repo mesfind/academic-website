@@ -6,7 +6,7 @@ date = 2018-05-18T00:00:00
 title = "How to build this website"
 
 # Project summary to display on homepage.
-summary = "A toy model that attempts to classify peptides from my some of my experiments according to one of five MHC class I allotypes present in the cells I use."
+summary = "A guide to building this website using blogdown."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "hex-blogdown.png"
