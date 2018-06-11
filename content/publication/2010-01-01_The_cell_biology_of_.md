@@ -20,6 +20,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_cite = "static/files/citations/2010_The_cell_biology_of_.bib"
 math = true
 highlight = true
 [header]
