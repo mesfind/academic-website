@@ -34,6 +34,19 @@ bibtex_2academic <- function(bibfile,
                         )
                 )
         
+        # function to create the filename
+        create_filename <- function(x, ext) {
+                filename <- paste(
+                        x[["year"]],
+                        x[["title"]] %>%
+                                str_replace_all(fixed(" "), "_") %>%
+                                str_remove_all(fixed(":")) %>%
+                                str_sub(1, 20) %>%
+                                paste0(ext),
+                        sep = "_"
+                )
+        } 
+        
         # create a function which populates the md template based on the info
         # about a publication
         create_md <- function(x) {
@@ -175,5 +188,17 @@ bibtex_2academic <- function(bibfile,
                 FUN = function(x)
                         create_md(x),
                 MARGIN = 1
+        )
+        
+        # Added section to output .bib files to get the cite button
+        lapply(
+                1:nrow(mypubs),
+                FUN = function(x) {
+                        # define a date and create filename by appending date 
+                        # and start of title
+                        filename = create_filename(mypubs[x,], ".bib")
+                        bib <- as.BibEntry(mypubs[x,])
+                        WriteBib(bib, paste0("static/files/citations/", filename))
+                }
         )
 }
