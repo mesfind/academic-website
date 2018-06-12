@@ -9,54 +9,63 @@ bibtex_2academic <- function(bibfile,
         
         # Import the bibtex file and convert to data.frame
         mypubs   <-
-                ReadBib(bibfile, check = "warn", .Encoding = "UTF-8") %>%
+                ReadBib(bibfile, check = "warn", 
+                        .Encoding = "UTF-8") %>%
                 as.data.frame()
         
-        # assign "categories" to the different types of publications
+        # assign "categories" to the different types of
+        # publications
         mypubs   <- mypubs %>%
                 dplyr::mutate(
                         pubtype = dplyr::case_when(
-                                type == "Article" ~ "2",
-                                type == "Article in Press" ~ "2",
-                                type == "InProceedings" ~ "1",
-                                type == "Proceedings" ~ "1",
-                                type == "Conference" ~ "1",
-                                type == "Conference Paper" ~ "1",
-                                type == "MastersThesis" ~ "3",
-                                type == "PhdThesis" ~ "3",
-                                type == "Manual" ~ "4",
-                                type == "TechReport" ~ "4",
-                                type == "Book" ~ "5",
-                                type == "InCollection" ~ "6",
-                                type == "InBook" ~ "6",
-                                type == "Misc" ~ "0",
+                                bibtype == "Article" ~ "2",
+                                bibtype == "Article in Press" ~ "2",
+                                bibtype == "InProceedings" ~ "1",
+                                bibtype == "Proceedings" ~ "1",
+                                bibtype == "Conference" ~ "1",
+                                bibtype == "Conference Paper" ~ "1",
+                                bibtype == "MastersThesis" ~ "3",
+                                bibtype == "PhdThesis" ~ "3",
+                                bibtype == "Manual" ~ "4",
+                                bibtype == "TechReport" ~ "4",
+                                bibtype == "Book" ~ "5",
+                                bibtype == "InCollection" ~ "6",
+                                bibtype == "InBook" ~ "6",
+                                bibtype == "Misc" ~ "0",
                                 TRUE ~ "0"
                         )
                 )
         
-        # create a function which populates the md template based on the info
+        # function to create the filename
+        create_filename <- function(x, ext) {
+                filename <- paste(
+                        x[["year"]],
+                        x[["title"]] %>%
+                                str_replace_all(fixed(" "), "_") %>%
+                                str_remove_all(fixed(":")) %>%
+                                str_sub(1, 20) %>%
+                                paste0(ext),
+                        sep = "_"
+                )
+        } 
+        
+        # create a function which populates the md template 
+        # based on the info
         # about a publication
         create_md <- function(x) {
-                # define a date and create filename by appending date and start of title
+                # define a date and create filename by appending date 
+                # and start of title
                 if (!is.na(x[["year"]])) {
                         x[["date"]] <- paste0(x[["year"]], "-01-01")
                 } else {
                         x[["date"]] <- "2999-01-01"
                 }
                 
-                filename <- paste(
-                        x[["date"]],
-                        x[["title"]] %>%
-                                str_replace_all(fixed(" "), "_") %>%
-                                str_remove_all(fixed(":")) %>%
-                                str_sub(1, 20) %>%
-                                paste0(".md"),
-                        sep = "_"
-                )
+                filename <- create_filename(x, ".md")
                 # start writing
-                if (!file.exists(file.path(outfold, filename)) |
+                if (!file.exists(file.path("content/publication", filename)) |
                     overwrite) {
-                        fileConn <- file.path(outfold, filename)
+                        fileConn <- file.path("content/publication", filename)
                         write("+++", fileConn)
                         
                         # Title and date
@@ -67,7 +76,8 @@ bibtex_2academic <- function(bibfile,
                               fileConn,
                               append = T)
                         
-                        # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+                        # Authors. Comma separated list, e.g. `["Bob Smith", 
+                        # "David Jones"]`.
                         auth_hugo <-
                                 str_replace_all(x["author"], " and ", "\", \"")
                         auth_hugo <-
@@ -77,22 +87,21 @@ bibtex_2academic <- function(bibfile,
                               append = T)
                         
                         # Publication type. Legend:
-                        # 0 = Uncategorized, 1 = Conference paper, 2 = Journal article
-                        # 3 = Manuscript, 4 = Report, 5 = Book,  6 = Book section
-                        write(
-                                paste0("publication_types = [\"", x[["pubtype"]], "\"]"),
-                                fileConn,
-                                append = T
-                        )
+                        # 0 = Uncategorized, 1 = Conference paper, 
+                        # 2 = Journal article
+                        # 3 = Manuscript, 4 = Report, 5 = Book,  6 = Book
+                        # section
+                        write(paste0("publication_types = [\"", x[["pubtype"]],
+                                     "\"]"),
+                              fileConn,
+                              append = T)
                         
-                        # Publication details: journal, volume, issue, page numbers and doi link
+                        # Publication details: journal, volume, issue, 
+                        # page numbers and doi link
                         publication <- x[["journal"]]
                         if (!is.na(x[["volume"]]))
                                 publication <- paste0(publication,
                                                       ", (", x[["volume"]], ")")
-                        if (!is.na(x[["number"]]))
-                                publication <- paste0(publication,
-                                                      ", ", x[["number"]])
                         if (!is.na(x[["pages"]]))
                                 publication <- paste0(publication,
                                                       ", _pp. ", x[["pages"]], "_")
@@ -102,20 +111,14 @@ bibtex_2academic <- function(bibfile,
                                                       paste0("https://doi.org/",
                                                              x[["doi"]]))
                         
-                        write(
-                                paste0("publication = \"", publication, "\""),
-                                fileConn,
-                                append = T
-                        )
-                        write(
-                                paste0(
-                                        "publication_short = \"",
-                                        publication,
-                                        "\""
-                                ),
-                                fileConn,
-                                append = T
-                        )
+                        write(paste0("publication = \"", publication, "\""),
+                              fileConn,
+                              append = T)
+                        write(paste0("publication_short = \"",
+                                     publication,
+                                     "\""),
+                              fileConn,
+                              append = T)
                         
                         # Abstract and optional shortened version.
                         if (abstract) {
@@ -131,7 +134,8 @@ bibtex_2academic <- function(bibfile,
                               fileConn,
                               append = T)
                         
-                        # other possible fields are kept empty. They can be customized later by
+                        # other possible fields are kept empty. They can be
+                        # customized later by
                         # editing the created md
                         
                         write("image_preview = \"\"",
@@ -167,7 +171,8 @@ bibtex_2academic <- function(bibfile,
                         write("+++", fileConn, append = T)
                 }
         }
-        # apply the "create_md" function over the publications list to generate
+        # apply the "create_md" function over the 
+        # publications list to generate
         # the different "md" files.
         
         apply(
@@ -175,5 +180,17 @@ bibtex_2academic <- function(bibfile,
                 FUN = function(x)
                         create_md(x),
                 MARGIN = 1
+        )
+        
+        # Added section to output .bib files to get the cite button
+        lapply(
+                1:nrow(mypubs),
+                FUN = function(x) {
+                        # define a date and create filename by appending date 
+                        # and start of title
+                        filename = create_filename(mypubs[x,], ".bib")
+                        bib <- as.BibEntry(mypubs[x,])
+                        WriteBib(bib, paste0("static/files/citations/", filename))
+                }
         )
 }

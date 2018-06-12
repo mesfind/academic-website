@@ -182,6 +182,7 @@ bibtex_2academic <- function(bibfile,
                 MARGIN = 1
         )
         
+        # Added section to output .bib files to get the cite button
         lapply(
                 1:nrow(mypubs),
                 FUN = function(x) {
