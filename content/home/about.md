@@ -42,4 +42,5 @@ and proteomics.
 
 My current project aims to understand the involvement of class I MHC molecules
 in skin sensitisation to chemical allergens. I also contribute to research into
-contagious cancer in the [Tasmanian Devil](https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page), and I am a [Data and Software Carpentry](https://carpentries.org/) instructor. 
+human cancer and contagious cancer in the
+[Tasmanian Devil](https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page), and I am a [Data and Software Carpentry](https://carpentries.org/) instructor. 
