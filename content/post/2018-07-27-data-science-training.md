@@ -11,7 +11,7 @@ header:
 ---
 
 This post was motivated in part by 
-[Maelle Salmon's post about blogging](https://masalmon.eu/2018/07/16/soapbox/) 
+[Maëlle Salmon's post about blogging](https://masalmon.eu/2018/07/16/soapbox/) 
 and secondly from discussion with [Laura Graham](http://laurajanegraham.github.io/) about my long term mission is to convince the [University of 
 Southampton](https://www.southampton.ac.uk/) (here in the UK) of the need to provide some 
 minimum data science training and support.
@@ -160,4 +160,4 @@ else? Time is limited always, and I don't know what is most effective. One of
 my other concerns is that doing things for free always lets the University off 
 the hook when they should be investing in their people. 
 
-As Maelle said in her blog, one reason to write is voice amplification and I'd consider this post a good start if I get the attention of some helpful people either inside the University or in the community at large.
+As Maëlle said in her blog, one reason to write is voice amplification and I'd consider this post a good start if I get the attention of some helpful people either inside the University or in the community at large.
