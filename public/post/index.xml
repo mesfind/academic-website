@@ -13,15 +13,13 @@
     
     
     <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <title>An unmet need for data science training</title>
+      <link>/post/unmet-data-science-training/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/getting-started/</guid>
-      <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
-
-Key features:
- Easily manage various content including homepage, blog posts, publications, talks, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Color Themes Academic is available in different color themes and font themes.</description>
+      <guid>/post/unmet-data-science-training/</guid>
+      <description>This post was motivated in part by Maelle Salmon&amp;rsquo;s post about blogging and secondly from discussion with Laura Graham about my long term mission is to convince the University of Southampton here in the UK, of the need to provide some minimum data science training and support.
+The aim is to try to define the problem(s) a bit better and also a bit of a cry for help. I appreciate that none of this may be novel, but I needed to get it written down and out of my head.</description>
     </item>
     
   </channel>

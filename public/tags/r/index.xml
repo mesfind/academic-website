@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 16 Jul 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An unmet need for data science training</title>
+      <link>/post/unmet-data-science-training/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/unmet-data-science-training/</guid>
+      <description>This post was motivated in part by Maelle Salmon&amp;rsquo;s post about blogging and secondly from discussion with Laura Graham about my long term mission is to convince the University of Southampton here in the UK, of the need to provide some minimum data science training and support.
+The aim is to try to define the problem(s) a bit better and also a bit of a cry for help. I appreciate that none of this may be novel, but I needed to get it written down and out of my head.</description>
+    </item>
     
     <item>
       <title>British Society for Proteomics 2018 : Data Science Workshop</title>
