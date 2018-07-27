@@ -275,7 +275,7 @@ enableGitInfo = false
 [[menu.main]]
   name = "CV"
   url = "./files/cv_2018.pdf"
-  weight = 4
+  weight = 5
 
 #[[menu.main]]
   #name = "Posts"
