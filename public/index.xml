@@ -21,7 +21,7 @@
 &lt;p&gt;This post was motivated in part by
 &lt;a href=&#34;https://masalmon.eu/2018/07/16/soapbox/&#34; target=&#34;_blank&#34;&gt;Maelle Salmon&amp;rsquo;s post about blogging&lt;/a&gt;
 and secondly from discussion with &lt;a href=&#34;http://laurajanegraham.github.io/&#34; target=&#34;_blank&#34;&gt;Laura Graham&lt;/a&gt; about my long term mission is to convince the &lt;a href=&#34;https://www.southampton.ac.uk/&#34; target=&#34;_blank&#34;&gt;University of
-Southampton&lt;/a&gt; here in the UK, of the need to provide some
+Southampton&lt;/a&gt; (here in the UK) of the need to provide some
 minimum data science training and support.&lt;/p&gt;
 
 &lt;p&gt;The aim is to try to define the problem(s) a bit better and also a bit of a cry for help. I appreciate that none of this may be novel, but I needed to get
@@ -29,7 +29,10 @@ it written down and out of my head.&lt;/p&gt;
 
 &lt;h2 id=&#34;some-preliminaries&#34;&gt;Some preliminaries&lt;/h2&gt;
 
-&lt;p&gt;Firstly, a few vital statistics about me at the time of writing: 23 years since I started work in TV, 10 years post Engineering degree, 5 years post Immunology PhD, 3 years since I started working in proteomics, 3 years since I started learning R through the &lt;a href=&#34;https://www.coursera.org/specializations/jhu-data-science&#34; target=&#34;_blank&#34;&gt;John Hopkins&lt;/a&gt;. (I still haven&amp;rsquo;t completed the capstone.)
+&lt;p&gt;Firstly, a few vital statistics about me at the time of writing: 23 years since
+I started work in the TV industry, 10 years since finishing my Engineering
+degree and starting in immunology, 5 years since I finished my PhD, 3 years since
+I started working in proteomics, and 3 years since I started learning R through the &lt;a href=&#34;https://www.coursera.org/specializations/jhu-data-science&#34; target=&#34;_blank&#34;&gt;John Hopkins&lt;/a&gt;. (I still haven&amp;rsquo;t completed the capstone.)
 And finally 1 year since I did &lt;a href=&#34;https://datacarpentry.org/&#34; target=&#34;_blank&#34;&gt;Data Carpentry&lt;/a&gt; instructor training.&lt;/p&gt;
 
 &lt;p&gt;Learning R and about the related data science issues through the community has

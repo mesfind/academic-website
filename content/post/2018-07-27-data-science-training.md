@@ -13,7 +13,7 @@ header:
 This post was motivated in part by 
 [Maelle Salmon's post about blogging](https://masalmon.eu/2018/07/16/soapbox/) 
 and secondly from discussion with [Laura Graham](http://laurajanegraham.github.io/) about my long term mission is to convince the [University of 
-Southampton](https://www.southampton.ac.uk/) here in the UK, of the need to provide some 
+Southampton](https://www.southampton.ac.uk/) (here in the UK) of the need to provide some 
 minimum data science training and support.
 
 The aim is to try to define the problem(s) a bit better and also a bit of a cry for help. I appreciate that none of this may be novel, but I needed to get
@@ -21,7 +21,10 @@ it written down and out of my head.
 
 ## Some preliminaries
 
-Firstly, a few vital statistics about me at the time of writing: 23 years since I started work in TV, 10 years post Engineering degree, 5 years post Immunology PhD, 3 years since I started working in proteomics, 3 years since I started learning R through the [John Hopkins](https://www.coursera.org/specializations/jhu-data-science). (I still haven't completed the capstone.) 
+Firstly, a few vital statistics about me at the time of writing: 23 years since 
+I started work in the TV industry, 10 years since finishing my Engineering 
+degree and starting in immunology, 5 years since I finished my PhD, 3 years since 
+I started working in proteomics, and 3 years since I started learning R through the [John Hopkins](https://www.coursera.org/specializations/jhu-data-science). (I still haven't completed the capstone.) 
 And finally 1 year since I did [Data Carpentry](https://datacarpentry.org/) instructor training.
 
 Learning R and about the related data science issues through the community has
